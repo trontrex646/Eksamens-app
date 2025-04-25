@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Auto Pulkst</string>
+    <string name="preset_prompt">Izvēlieties iepriekš iestatītu ziņojumu</string>
+    <string name="home">Sākums</string>
+    <string name="settings">Iestatījumi</string>
+    <string name="history">Vēsture</string>
+    <string name="send">Sūtīt</string>
+    <string name="clear">Notīrīt</string>
+    <string name="dark_mode">Tumšais režīms</string>
+    <string name="enable_notifications">Iespējot paziņojumus</string>
+    <string name="time_format">24 stundu formāts</string>
+    <string name="language">Valoda</string>
+    <string name="bluetooth_settings">Bluetooth iestatījumi</string>
+    <string name="clock_theme">Pulksteņa dizains</string>
+    <string name="reset_settings">Atiestatīt iestatījumus</string>
+    <string name="send_feedback">Sūtīt atsauksmi</string>
+    <string name="version">Versija: %s</string>
+    <string name="connect_bluetooth">Pievienot Bluetooth</string>
+    <string name="send_command">Sūtīt komandu</string>
+    <string name="disconnect">Atvienot</string>
+    <string name="filter_by_date">Filtrēt pēc datuma</string>
+    <string name="clear_filter">Notīrīt filtru</string>
+    <string name="clear_history">Notīrīt vēsturi</string>
+    <string name="select_date_range">Izvēlēties datumu diapazonu</string>
+    <string name="filter">Filtrēt</string>
+    <string name="cancel">Atcelt</string>
+    <string name="enter_custom_message">Ievadīt pielāgotu ziņojumu</string>
+    <string name="start_timer">Sākt taimeri</string>
+    <string name="stop_timer">Apturēt taimeri</string>
+    <string name="reset_timer">Atiestatīt taimeri</string>
+    <string name="check_status">Pārbaudīt statusu</string>
+    <string name="not_connected">Nav savienots</string>
+    <string name="auto_update_time">Automātiska laika sinhronizācija</string>
+    <string name="save_preset">Saglabāt iepriekš iestatītu ziņojumu</string>
+    <string name="edit">Rediģēt</string>
+    <string name="delete">Dzēst</string>
+    <string name="send_time">Sūtīt laiku</string>
+    <string name="connected">Pievienots</string>
+    <string name="device_ready">Ierīce ir gatava</string>
+    <string name="connect_device">Lūdzu, pievienojiet ierīci</string>
+    <string name="current_time">Pašreizējais laiks</string>
+    <string name="send_selected_time">Sūtīt izvēlēto laiku</string>
+    <string name="preset_messages">Iepriekš iestatītie ziņojumi</string>
+    <string name="add">Pievienot</string>
+    <string name="connect">Savienoties</string>
+    <string name="add_message">Pievienot ziņojumu</string>
+    <string name="edit_message">Rediģēt ziņojumu</string>
+    <string name="delete_message">Dzēst ziņojumu</string>
+    <string name="message">Ziņojums</string>
+    <string name="delete_confirm">Vai tiešām vēlaties dzēst šo ziņojumu?</string>
+    <string name="message_sent">Ziņojums nosūtīts</string>
+    <string name="failed_to_send">Neizdevās nosūtīt: %s</string>
+    <string name="time_sent">Laiks nosūtīts: %s</string>
+    <string name="failed_to_send_time">Neizdevās nosūtīt laiku: %s</string>
+    <string name="current_time_sent">Pašreizējais laiks nosūtīts: %s</string>
+    <string name="failed_to_reconnect">Neizdevās atkārtoti savienoties: %s</string>
+    <string name="failed_to_connect">Neizdevās savienoties</string>
+    <string name="error_connecting">Kļūda savienojoties ar ierīci: %s</string>
+    <string name="auto_update_error">Automātiskās atjaunināšanas kļūda: %s</string>
+    <string name="save">Saglabāt</string>
+    <string name="close">Aizvērt</string>
+    <string name="start_date">Sākuma datums</string>
+    <string name="end_date">Beigu datums</string>
+    <string name="no_history">Nav pieejamu ziņojumu vēstures</string>
+    <string name="no_messages_in_range">Nav atrasts ziņojumu izvēlētajā datumu diapazonā</string>
+    <string name="try_different_range">Mēģiniet izvēlēties citu datumu diapazonu</string>
+    <string name="set_on">Iestatīts: %s</string>
+    <string name="time_set_to">Laiks iestatīts uz: %s</string>
+    <string name="message_sent_desc">Ziņojums nosūtīts: %s</string>
+    <string name="no_preset_messages">Nav iepriekš iestatītu ziņojumu.\nPievienojiet, izmantojot pogu augšā.</string>
+    <string name="no_history_yet">Nav ziņojumu vēstures</string>
+    <string name="no_history_in_range">Izvēlētajā datumu diapazonā nav atrasta vēsture</string>
+    <string name="showing_filtered_results">Rāda filtrētos rezultātus</string>
+
+    <!-- Theme Names -->
+    <string name="theme_default">Standarta</string>
+    <string name="theme_dark">Tumšs</string>
+    <string name="theme_colorful">Krāsains</string>
+    <string name="theme_minimalist">Minimālistisks</string>
+
+    <!-- Navigation -->
+    <string name="navigation_home">Sākums</string>
+    <string name="navigation_history">Vēsture</string>
+    <string name="navigation_settings">Iestatījumi</string>
+</resources> 

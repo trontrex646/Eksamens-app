@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Your app's theme settings -->
+    </style>
+
+    <!-- Style for Bottom Navigation -->
+    <style name="BottomNavigationStyle">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- Custom theme for SplashActivity -->
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- Disable default window animations -->
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+</resources>

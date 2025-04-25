@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.parkingtimerapp.ui.home.HomeFragment"
+        android:label="Home"
+        android:layout_marginTop="?attr/actionBarSize"
+        >
+
+        <action
+            android:id="@+id/action_home_to_history"
+            app:destination="@id/navigation_history"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_history"
+        android:name="com.example.parkingtimerapp.ui.history.HistoryFragment"
+        android:label="History" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.parkingtimerapp.ui.settings.SettingsFragment"
+        android:label="Settings" />
+</navigation>

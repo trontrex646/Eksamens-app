@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Parkuhr App</string>
+    <string name="preset_prompt">Voreingestellte Nachricht auswählen</string>
+    <string name="home">Start</string>
+    <string name="settings">Einstellungen</string>
+    <string name="history">Verlauf</string>
+    <string name="send">Senden</string>
+    <string name="clear">Löschen</string>
+    <string name="dark_mode">Dunkler Modus</string>
+    <string name="enable_notifications">Benachrichtigungen aktivieren</string>
+    <string name="time_format">24-Stunden-Format</string>
+    <string name="language">Sprache</string>
+    <string name="bluetooth_settings">Bluetooth-Einstellungen</string>
+    <string name="clock_theme">Uhr-Design</string>
+    <string name="reset_settings">Einstellungen zurücksetzen</string>
+    <string name="send_feedback">Feedback senden</string>
+    <string name="version">Version: %s</string>
+    <string name="connect_bluetooth">Bluetooth verbinden</string>
+    <string name="send_command">Befehl senden</string>
+    <string name="disconnect">Trennen</string>
+    <string name="filter_by_date">Nach Datum filtern</string>
+    <string name="clear_filter">Filter löschen</string>
+    <string name="clear_history">Verlauf löschen</string>
+    <string name="select_date_range">Datumsbereich auswählen</string>
+    <string name="filter">Filtern</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="enter_custom_message">Benutzerdefinierte Nachricht eingeben</string>
+    <string name="start_timer">Timer starten</string>
+    <string name="stop_timer">Timer stoppen</string>
+    <string name="reset_timer">Timer zurücksetzen</string>
+    <string name="check_status">Status prüfen</string>
+    <string name="not_connected">Nicht verbunden</string>
+    <string name="auto_update_time">Zeit automatisch aktualisieren</string>
+    <string name="save_preset">Voreinstellung speichern</string>
+    <string name="edit">Bearbeiten</string>
+    <string name="delete">Löschen</string>
+    <string name="send_time">Zeit senden</string>
+    <string-array name="predefined_messages">
+        <item>@string/start_timer</item>
+        <item>@string/stop_timer</item>
+        <item>@string/reset_timer</item>
+        <item>@string/check_status</item>
+    </string-array>
+    <string name="connected">Verbunden</string>
+    <string name="device_ready">Gerät ist bereit</string>
+    <string name="connect_device">Bitte Gerät verbinden</string>
+    <string name="current_time">Aktuelle Zeit</string>
+    <string name="send_selected_time">Ausgewählte Zeit senden</string>
+    <string name="preset_messages">Voreingestellte Nachrichten</string>
+    <string name="add">Hinzufügen</string>
+    <string name="connect">Verbinden</string>
+    <string name="add_message">Nachricht hinzufügen</string>
+    <string name="edit_message">Nachricht bearbeiten</string>
+    <string name="delete_message">Nachricht löschen</string>
+    <string name="message">Nachricht</string>
+    <string name="delete_confirm">Möchten Sie diese Nachricht wirklich löschen?</string>
+    <string name="message_sent">Nachricht gesendet</string>
+    <string name="failed_to_send">Senden fehlgeschlagen: %s</string>
+    <string name="time_sent">Zeit gesendet: %s</string>
+    <string name="failed_to_send_time">Zeit konnte nicht gesendet werden: %s</string>
+    <string name="current_time_sent">Aktuelle Zeit gesendet: %s</string>
+    <string name="failed_to_reconnect">Wiederverbindung fehlgeschlagen: %s</string>
+    <string name="failed_to_connect">Verbindung fehlgeschlagen</string>
+    <string name="error_connecting">Verbindungsfehler: %s</string>
+    <string name="auto_update_error">Fehler bei automatischer Aktualisierung: %s</string>
+    <string name="save">Speichern</string>
+    <string name="close">Schließen</string>
+    <string name="start_date">Startdatum</string>
+    <string name="end_date">Enddatum</string>
+    <string name="no_history">Keine Nachrichtenverlauf verfügbar</string>
+    <string name="no_messages_in_range">Keine Nachrichten im ausgewählten Zeitraum gefunden</string>
+    <string name="try_different_range">Versuchen Sie einen anderen Zeitraum auszuwählen</string>
+    <string name="set_on">Eingestellt am: %s</string>
+    <string name="time_set_to">Zeit eingestellt auf: %s</string>
+    <string name="message_sent_desc">Nachricht gesendet: %s</string>
+    <string name="no_preset_messages">Noch keine voreingestellten Nachrichten.\nFügen Sie eine mit der Schaltfläche oben hinzu.</string>
+    <string name="no_history_yet">Kein Parkverlauf</string>
+    <string name="no_history_in_range">Keine Historie im ausgewählten Datumsbereich gefunden</string>
+    <string name="showing_filtered_results">Gefilterte Ergebnisse werden angezeigt</string>
+
+    <!-- Dialog -->
+    <string name="confirm_clear_history">Möchten Sie den gesamten Verlauf löschen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="invalid_date_range">Ungültiger Datumsbereich</string>
+    <string name="duration_format">%d Stunden %d Minuten</string>
+    <string name="timestamp_format">dd.MM.yyyy HH:mm:ss</string>
+
+    <!-- Theme Names -->
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+
+    <!-- Navigation -->
+    <string name="navigation_home">Start</string>
+    <string name="navigation_history">Verlauf</string>
+    <string name="navigation_settings">Einstellungen</string>
+</resources>
